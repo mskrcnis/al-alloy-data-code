@@ -1,0 +1,21 @@
+Variable,Description,Unit
+Si,Silicon composition,wt.%
+Fe,Iron composition,wt.%
+Cu,Copper composition,wt.%
+Mn,Manganese composition,wt.%
+Mg,Magnesium composition,wt.%
+Cr,Chromium composition,wt.%
+Zn,Zinc composition,wt.%
+V,Vanadium composition,wt.%
+Ti,Titanium composition,wt.%
+Zr,Zirconium composition,wt.%
+Li,Lithium composition,wt.%
+Ni,Nickel composition,wt.%
+Be,Beryllium composition,wt.%
+Sc,Scandium composition,wt.%
+Tsol,Solution-treatment temperature,°C
+Tage,Artificial-aging temperature,°C
+tage,Artificial-aging time,h
+YS,Yield strength,MPa
+UTS,Ultimate tensile strength,MPa
+El,Elongation,%
