@@ -1,0 +1,12 @@
+Repository-level release validation
+
+PASS: processed dataset contains 452 records and complete YS, UTS, El targets.
+PASS: Data_Split counts are Proper_Training=270, Calibration=91, Final_Test=91.
+PASS: split memberships are mutually disjoint.
+PASS: explicit outer-fold file contains 25 repeated outer evaluations.
+PASS: explicit inner-fold file contains 1,875 records: 25 outer evaluations x 15 fixed-k values x 5 folds.
+PASS: every reconstructed inner-fold hash matches the completed fixed-k search input.
+PASS: comment3_k12_continuation_core.py, comment3_final_core.py, and comment3_final_joint_search_core.py are co-located.
+PASS: all released Python sources compile; the three Comment 3 modules import together.
+PASS: the 4x5 variable-distribution figure regenerates successfully from the released data.
+PASS: no tracked file exceeds the regular GitHub 100 MB file limit.

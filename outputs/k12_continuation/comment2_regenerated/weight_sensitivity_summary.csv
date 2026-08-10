@@ -1,0 +1,7 @@
+Scenario,YS_Weight,UTS_Weight,El_Weight,Uncertainty_Weight,Weight_Sum,Overall_Winner_Heldout_Condition_ID,Overall_Winner_Source_Original_Indices,Eligible_Winner_Heldout_Condition_ID,Eligible_Winner_Source_Original_Indices,Overall_Winner_Differs_From_Baseline,Eligible_Winner_Differs_From_Baseline,Top5_Overlap_Count,Top5_Overlap_Percent,Top10_Overlap_Count,Top10_Overlap_Percent,Spearman_Correlation_With_Baseline,Changed_Rank_Count,Changed_Rank_Percent,Mean_Absolute_Rank_Change,Maximum_Upward_Rank_Change,Maximum_Downward_Rank_Change
+Baseline,0.2,0.2,0.4,0.2,1.0,HTC-026,291,HTC-026,291,False,False,5,100.0,10,100.0,0.9999999999999999,0,0.0,0.0,0,0
+Equal property emphasis,0.2667,0.2667,0.2666,0.2,1.0,HTC-026,291,HTC-026,291,False,False,5,100.0,9,90.0,0.9792957643799663,64,73.5632183908046,3.5172413793103448,13,-16
+YS priority,0.4,0.2,0.2,0.2,1.0,HTC-026,291,HTC-026,291,False,False,4,80.0,9,90.0,0.9598673179266604,71,81.60919540229885,5.0344827586206895,16,-21
+UTS priority,0.2,0.4,0.2,0.2,1.0,HTC-026,291,HTC-026,291,False,False,5,100.0,9,90.0,0.9591747466647225,70,80.45977011494253,4.988505747126437,13,-28
+Low uncertainty penalty,0.225,0.225,0.45,0.1,1.0,HTC-041,284,HTC-041,284,True,True,3,60.0,6,60.0,0.88474156156594,81,93.10344827586206,8.919540229885058,33,-24
+High uncertainty penalty,0.175,0.175,0.35,0.3,1.0,HTC-026,291,HTC-026,291,False,False,3,60.0,10,100.0,0.9619997083910474,75,86.20689655172413,5.0344827586206895,16,-20

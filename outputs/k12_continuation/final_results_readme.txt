@@ -1,0 +1,2 @@
+Final selection criterion: highest mean outer-validation macro-R2. k=12 is final (mean macro-R2=0.807022). k=8 is only the optional one-SE alternative. The fresh k=12 lock and all downstream results were regenerated in this continuation.
+Runtime: 515.63 seconds.

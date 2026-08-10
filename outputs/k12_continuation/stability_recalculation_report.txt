@@ -1,0 +1,3 @@
+Mean normalized hybrid feature score is a ranking summary, not a feature-selection stability statistic. Genuine stability is quantified using selection frequency, pairwise Jaccard similarity, and Nogueira stability.
+
+The fixed-k joint-search feature sets were used independently for every k; no fitted configuration was cloned across k.

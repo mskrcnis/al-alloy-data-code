@@ -1,0 +1,7 @@
+Alpha reconciliation
+
+The recovered source is the original major-revision notebook's PhysicsRetainedSelector. It computes:
+HybridScore_j(alpha) = alpha * minmax(PearsonRelevance_j) + (1-alpha) * minmax(MeanEmbeddedImportance_j).
+Pearson relevance is the mean absolute Pearson correlation with target-wise standardized targets. Embedded importance is the mean ExtraTrees feature_importances_ across five bootstrap runs in the corrected implementation (the original source used five runs; its sensitivity cell used the same alpha grid). Each component is min-max normalized independently; a zero span becomes all zeros. Alpha=0 disables Pearson relevance and uses only normalized embedded importance. Alpha=1 disables embedded importance and uses only normalized Pearson relevance. Lexical feature order resolves exact ties after mandatory physics variables are retained.
+
+The earlier alpha=0.00 print was a legitimate endpoint in the descriptive alpha loop. It did not establish that 0.00 was the final selected alpha. The previous audit was incomplete because it inspected only the Comment 1/2 scripts. The current final run selects alpha within training-only inner CV and reports the historical and newly selected values separately.

@@ -1,0 +1,7 @@
+Figure,Uses_Completed_Outer_Records,Uses_Final_Test,Feature_Count_Scope
+feature_selection_frequency_k12,True,False,feature_selection_frequency_k12
+feature_selection_frequency_one_se_k8,True,False,feature_selection_frequency_one_se_k8
+jaccard_stability_excluding_mandatory,True,False,k=3..17
+jaccard_stability_including_mandatory,True,False,k=3..17
+nogueira_stability_excluding_mandatory,True,False,k=3..17
+nogueira_stability_including_mandatory,True,False,k=3..17

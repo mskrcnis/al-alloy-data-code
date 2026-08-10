@@ -1,0 +1,22 @@
+Check,Status,Measured,Expected,Evidence
+split_270_91_91_unchanged,PASS,"[270, 91, 91]","[270, 91, 91]",split provenance
+split_disjoint,PASS,True,True,split assertions
+completed_outer_inputs_used,PASS,/home/mskr/Other Research/final_submission_results_joint_search_20260807_063246,existing completed package,completed_joint_search_source_provenance.json
+completed_search_not_repeated,PASS,source checkpoints consumed,no fixed-k outer search rerun,execution log
+fresh_k12_aggregate_96,PASS,96,96,final_k12_candidate_results.csv
+fresh_k12_inner_480,PASS,480,480,final_k12_inner_fold_results.csv
+exactly_12_final_features,PASS,12,12,final_k12_selected_features.csv
+k12_final_selection_criterion,PASS,12,12,final_k12_locked_configuration.json
+calibration_test_not_used_in_selection,PASS,False,False,final_k12_locked_configuration.json
+full_binary_matrix_25x17_each_k,PASS,6375,6375,fixed_k_outer_feature_selection_binary_matrix_complete.csv
+frequency_includes_zero_counts,PASS,2625,zeros included,feature_selection_frequency_complete.csv
+jaccard_300_pairs,PASS,300,300,pairwise_jaccard_values.csv
+k12_stability_both_definitions,PASS,"['Excluding_Mandatory', 'Including_Mandatory']","['Excluding_Mandatory', 'Including_Mandatory']",k12_stability_with_without_mandatory.csv
+comment1_comment2_same_ensemble,PASS,True,True,ensemble predictions and Comment 2 screening
+single_metrics_reproduce,PASS,True,True,single_model_targetwise_macro_metrics.csv
+ensemble_metrics_reproduce,PASS,True,True,ensemble_targetwise_macro_metrics.csv
+comment1_shap_all_targets,PASS,SHAP computed successfully for all three targets,SHAP computed successfully,Comment 1 SHAP output
+comment2_unique_conditions_87,PASS,87,87,heldout_unique_conditions_complete.csv
+required_figures_nonempty,PASS,22,>=20,figure directories
+outdated_final_k8_references_removed,PASS,[],[],generated text reports
+required_outputs_nonempty,PASS,[],none missing,required outputs

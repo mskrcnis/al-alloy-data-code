@@ -1,0 +1,9 @@
+Reviewer 1 Comment 2 — regenerated with the final k=12 ensemble
+
+The final model is the fresh training-only k=12 lock: Native_ET_Physics, alpha=0.25, features=Tsol;Tage;tage;Zn;Mg;Cu;Ti;Fe;Zr;Si;Sc;Cr. The optional one-standard-error compact alternative is k=8; it is not the final model.
+
+The same 20-member k=12 ensemble is used for Comment 1 conformal predictions and Comment 2 screening. Calibration and final-test targets were not used in model selection. The 91 final-test records yield 87 unique held-out conditions. The baseline winner is HTC-026 from source index/indices 291; the baseline top-10 is exported in baseline_top10_conditions.csv.
+
+The baseline score is PropertyOnlyScore - 0.2*NormalizedUncertaintyPenalty, with P_unc=(1/3)*sum((Upper_k-Lower_k)/s_train_k), where s_train uses only the 270 proper-training targets. All six sensitivity scenarios are regenerated from the same final ensemble without refitting.
+
+Runtime for this targeted continuation: 515.63 seconds. The completed 36,000-candidate fixed-k experiment was consumed as exported input and was not repeated.

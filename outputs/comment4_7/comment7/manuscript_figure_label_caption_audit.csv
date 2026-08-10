@@ -1,0 +1,25 @@
+Figure,Status,Labels_Units,Legend,Continuous_Connection,Caption
+figure3_samplewise_intervals_El.png,PASS,YS MPa; UTS MPa; El %,Prediction interval and observed value,None,Corrected sample-wise caption
+figure3_samplewise_intervals_UTS.png,PASS,YS MPa; UTS MPa; El %,Prediction interval and observed value,None,Corrected sample-wise caption
+figure3_samplewise_intervals_YS.png,PASS,YS MPa; UTS MPa; El %,Prediction interval and observed value,None,Corrected sample-wise caption
+figure3_samplewise_prediction_intervals.png,PASS,YS MPa; UTS MPa; El %,Prediction interval and observed value,None,Corrected sample-wise caption
+comment1_regenerated/actual_vs_predicted_El.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment1_regenerated/actual_vs_predicted_UTS.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment1_regenerated/actual_vs_predicted_YS.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment1_regenerated/conformal_interval_El.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment1_regenerated/conformal_interval_UTS.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment1_regenerated/conformal_interval_YS.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment1_regenerated/shap_summary_El.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment1_regenerated/shap_summary_UTS.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment1_regenerated/shap_summary_YS.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment2_regenerated/applicability_domain_distances.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment2_regenerated/baseline_rank.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment2_regenerated/baseline_vs_sensitivity_rank_stability.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment2_regenerated/screening_score_comparison.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment2_regenerated/weight_sensitivity_rank_comparison.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment3_corrected/feature_selection_frequency_k12.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment3_corrected/feature_selection_frequency_one_se_k8.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment3_corrected/jaccard_stability_excluding_mandatory.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment3_corrected/jaccard_stability_including_mandatory.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment3_corrected/nogueira_stability_excluding_mandatory.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained
+comment3_corrected/nogueira_stability_including_mandatory.png,PRESERVED_VALID,Prior verified figure retained; target units confirmed from manuscript,Prior verified figure retained,Not modified,Prior verified caption retained

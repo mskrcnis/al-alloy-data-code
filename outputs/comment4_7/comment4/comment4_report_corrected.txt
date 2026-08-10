@@ -1,0 +1,7 @@
+Comment 4 correction
+
+The matched fixed-k prediction file contains 25 identical outer folds for k=12 and k=17. All metrics were independently recomputed from predictions. Target-wise R2, RMSE, MAE, NRMSE, NMAE and MAPE are reported; macro results contain only R2, NRMSE and NMAE. Raw RMSE and MAE were not averaged across targets.
+
+Paired differences are k=12 minus k=17. The corrected repeated five-fold test uses the Nadeau–Bengio variance correction with R=5, K=5, n_test=54, n_train=216, correction factor=0.29000, and df=24. Elongation has no zero or near-zero values in the retained data, but MAPE remains a denominator-sensitive target-wise metric and is not used as a macro metric.
+
+Conclusion: The 12-feature and 17-feature pipelines demonstrated statistically comparable predictive performance, while the reduced pipeline used five fewer descriptors.

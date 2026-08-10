@@ -1,0 +1,135 @@
+{
+  "analysis_name": "Reviewer 1 Comment 2 screening transparency and applicability-domain analysis",
+  "screening_description": "Retrospective reliability-aware screening of previously unseen held-out alloy conditions",
+  "condition_defining_columns": [
+    "Si",
+    "Fe",
+    "Cu",
+    "Mn",
+    "Mg",
+    "Cr",
+    "Zn",
+    "V",
+    "Ti",
+    "Zr",
+    "Li",
+    "Ni",
+    "Be",
+    "Sc",
+    "Tsol",
+    "Tage",
+    "tage"
+  ],
+  "element_columns": [
+    "Si",
+    "Fe",
+    "Cu",
+    "Mn",
+    "Mg",
+    "Cr",
+    "Zn",
+    "V",
+    "Ti",
+    "Zr",
+    "Li",
+    "Ni",
+    "Be",
+    "Sc"
+  ],
+  "processing_columns": [
+    "Tsol",
+    "Tage",
+    "tage"
+  ],
+  "selected_feature_columns": [
+    "Tsol",
+    "Tage",
+    "tage",
+    "Zn",
+    "Mg",
+    "Cu",
+    "Ti",
+    "Fe",
+    "Zr",
+    "Si",
+    "Sc",
+    "Cr"
+  ],
+  "composition_units": "Not explicitly documented in the source workbook; raw composition scale retained.",
+  "processing_units": {
+    "Tsol": "Temperature unit not explicitly documented",
+    "Tage": "Temperature unit not explicitly documented",
+    "tage": "Time unit not explicitly documented"
+  },
+  "normalization": {
+    "method": "min-max",
+    "population": "91 Final_Test records",
+    "parameters": {
+      "YS": {
+        "population": "91 Final_Test records",
+        "method": "min-max",
+        "min": 202.80634895833342,
+        "max": 611.9955249999994
+      },
+      "UTS": {
+        "population": "91 Final_Test records",
+        "method": "min-max",
+        "min": 265.58768125000046,
+        "max": 651.8592437499993
+      },
+      "El": {
+        "population": "91 Final_Test records",
+        "method": "min-max",
+        "min": 1.8248125000000184,
+        "max": 24.097112500000073
+      }
+    }
+  },
+  "score_component_equations": {
+    "StrengthScore": "0.5*minmax(Pred_YS) + 0.5*minmax(Pred_UTS)",
+    "DuctilityScore": "minmax(Pred_El)",
+    "PropertyOnlyScore": "0.4*StrengthScore + 0.4*DuctilityScore",
+    "ReliabilityAwareScore": "PropertyOnlyScore - 0.2*NormalizedUncertaintyPenalty",
+    "NormalizedUncertaintyPenalty": "(1/3)*sum((Upper_k-Lower_k)/s_train_k)"
+  },
+  "effective_baseline_weights": {
+    "YS": 0.2,
+    "UTS": 0.2,
+    "El": 0.4,
+    "UncertaintyPenalty": 0.2
+  },
+  "baseline_screening_weights": {
+    "StrengthScore": 0.4,
+    "DuctilityScore": 0.4,
+    "UncertaintyPenalty": 0.2
+  },
+  "training_target_standard_deviations_proper_training": {
+    "YS": 120.42647095275119,
+    "UTS": 103.84243186300931,
+    "El": 7.228180289110837
+  },
+  "epsilon": 1e-08,
+  "minimum_property_thresholds": {
+    "YS": null,
+    "UTS": null,
+    "El": null,
+    "conformal_lower_bounds": null,
+    "StrengthScore": null,
+    "DuctilityScore": null
+  },
+  "minimum_threshold_status": "No minimum-property threshold was imposed. The held-out conditions were ranked continuously using normalized predicted strength, normalized predicted ductility, and the normalized uncertainty penalty.",
+  "aluminium_balance": "100 minus reported elemental columns; Al is not explicit; balance is based on reported columns only.",
+  "feasibility_tolerance": 1e-10,
+  "range_tolerance": 1e-10,
+  "ad_scaler": "StandardScaler fit only on 270 proper-training selected-feature rows",
+  "ad_distance_metric": "Euclidean distance in standardized selected-feature space",
+  "ad_k": 5,
+  "ad_percentile": 95.0,
+  "ad_threshold": 2.6849196546971856,
+  "eligibility_rule": "Composition_Feasible and Applicability_Domain_Status == Inside",
+  "tie_handling": "Descending score, then ascending Original_Index; deterministic first ordering",
+  "random_seed": 42,
+  "unique_heldout_condition_count": 87,
+  "record_level_final_test_count": 91,
+  "observed_final_test_targets_used_for_screening": false
+}

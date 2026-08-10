@@ -1,0 +1,14 @@
+Check,Status,Measured,Expected,Evidence
+comment4_25_matched_folds_both_k,PASS,50,50,comment4_fold_metrics.csv
+comment4_no_macro_raw_error_or_mape,PASS,True,True,comment4_publication_table.csv
+comment5_one_selected_chain_order_per_outer,PASS,25,25,selected_chain_order_by_outer_fold.csv
+comment5_selected_chain_join_exact,PASS,100,100,corrected_selected_chain_outer_metrics.csv
+matched_seed_independent_wrapper,PASS,0.0,0.0,independent_wrapper_equivalence.csv
+comment5_all_four_summary,PASS,True,True,corrected_four_implementation_summary.csv
+grouped_no_composition_leakage,PASS,1,1,fixed_pipeline_fold_assignments.csv
+same_fixed_pipeline_rowwise_grouped,PASS,{'Fixed_k12_Native_ET'},{'Fixed_k12_Native_ET'},fixed_pipeline_rowwise_grouped_fold_metrics.csv
+duplicate_labels_and_counts_correct,PASS,True,True,corrected_duplicate_statistics.csv
+existing_shap_preserved_not_rerun,PASS,True,True,shap_integrity_preservation_check.csv
+manuscript_units_confirmed,PASS,"{'El': '%', 'UTS': 'MPa', 'YS': 'MPa'}","{'YS': 'MPa', 'UTS': 'MPa', 'El': '%'}",ERX-121075_Proof_hi.pdf Section 3.1
+neutral_title_used,PASS,Compact and Interpretable Strength–Ductility Prediction of Heat-Treatable Aluminum Alloys Using Multi-Target Machine Learning,neutral title,title_corrected.txt
+required_corrected_outputs_nonempty,PASS,[],none,correction folders

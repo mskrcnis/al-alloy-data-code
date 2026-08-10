@@ -1,0 +1,1 @@
+The complete verified Comment 2 tail was executed with the fresh final k=12 ensemble. No legacy manuscript 12-feature model was reused. The optional k=8 value is reported only as the one-SE compact alternative.

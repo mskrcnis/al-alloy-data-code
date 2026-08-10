@@ -1,0 +1,1 @@
+All current Comment 1 affected outputs were generated from the current fixed-k locked configuration. No historical Comment 1 prediction or interval table was used as a source of current values.

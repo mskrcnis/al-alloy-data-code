@@ -1,0 +1,14 @@
+Required_Output,Exists,Nonempty,Purpose
+single_model_test_predictions.csv,True,True,Comment 1 regenerated output
+single_model_test_metrics.csv,True,True,Comment 1 regenerated output
+ensemble_calibration_predictions.csv,True,True,Comment 1 regenerated output
+ensemble_test_predictions.csv,True,True,Comment 1 regenerated output
+ensemble_test_metrics.csv,True,True,Comment 1 regenerated output
+bootstrap_member_test_metrics.csv,True,True,Comment 1 regenerated output
+bootstrap_ensemble_summary.csv,True,True,Comment 1 regenerated output
+conformal_coverage_width.csv,True,True,Comment 1 regenerated output
+uncertainty_coverage_width.csv,True,True,Comment 1 regenerated output
+conformal_intervals_final_test.csv,True,True,Comment 1 regenerated output
+conformal_quantiles.csv,True,True,Comment 1 regenerated output
+residuals_and_nonconformity_scores.csv,True,True,Comment 1 regenerated output
+comment1_validation_provenance.json,True,True,Comment 1 regenerated output

@@ -1,0 +1,4 @@
+Target,Score_Recomputed_From_Formula,Interval_Recomputed_From_Formula,Coverage_Recomputed
+YS,True,True,0.8901098901098901
+UTS,True,True,0.8021978021978022
+El,True,True,0.9120879120879121

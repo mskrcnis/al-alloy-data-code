@@ -1,0 +1,5 @@
+Comment 5 correction
+
+The selected RegressorChain result was reconstructed by joining each outer fold to exactly one chain order selected by inner training-only CV. Its mean macro-R2 is independently recomputed from the selected-order predictions. All six chain orders remain available in corrected_all_six_chain_order_summary.csv.
+
+The direct target-wise and MultiOutputRegressor implementations use the same final 12 descriptors, same training rows, same outer folds, and the same ExtraTrees random state for every target estimator. Their predictions are checked in independent_wrapper_equivalence.csv. No feature selection or broad search was repeated. Native multi-output ExtraTrees is retained as the final implementation because it directly supports multi-target tree construction; negligible paired differences do not justify replacing it based only on a mean ranking.

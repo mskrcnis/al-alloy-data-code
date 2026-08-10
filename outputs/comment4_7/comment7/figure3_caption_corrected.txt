@@ -1,0 +1,1 @@
+Figure 3 caption: Independent final-test predictions are shown as sample-wise points with vertical normalized-conformal prediction intervals. Orange crosses are observed values. YS and UTS are reported in MPa and elongation in percent; samples are independent observations and are not joined by a continuous ribbon.

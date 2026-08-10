@@ -1,0 +1,7 @@
+Source_File,Source_Section,Finding,Used_In_Final
+/home/mskr/Downloads/al-alloy-revised.ipynb,cell 7 / PhysicsRetainedSelector,Executable alpha implementation recovered,True
+/home/mskr/Downloads/al-alloy-revised.ipynb,cell 1 / ALPHA_GRID,"Historically implemented grid is [0.00, 0.25, 0.50, 0.75, 1.00]",True
+/home/mskr/Downloads/al-alloy-revised.ipynb,cell 8 / sensitivity loop,"Printed alpha=0.00 is an actual tested endpoint, not proof of final alpha",True
+al-alloy-comment1-conformal-corrected.py,uncertainty calculation,Comment 1 source contains conformal_alpha=0.10 but no feature-ranking alpha,False
+al-alloy-comment2-screening-analysis.py,screening,Downstream weights and screening methodology preserved; outputs regenerated,False
+comment3_extension.py,previous Comment 3,Diagnostic only; wrong one-SE final-k override and incorrect Nogueira correction,False

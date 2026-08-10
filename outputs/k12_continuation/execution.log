@@ -1,0 +1,25 @@
+[2026-08-07 07:07:12] Completed outer-CV/stability records consumed; starting fresh k=12 lock
+[2026-08-07 07:13:01] completed final bootstrap member 1/20
+[2026-08-07 07:13:02] completed final bootstrap member 2/20
+[2026-08-07 07:13:04] completed final bootstrap member 3/20
+[2026-08-07 07:13:05] completed final bootstrap member 4/20
+[2026-08-07 07:13:06] completed final bootstrap member 5/20
+[2026-08-07 07:13:07] completed final bootstrap member 6/20
+[2026-08-07 07:13:08] completed final bootstrap member 7/20
+[2026-08-07 07:13:09] completed final bootstrap member 8/20
+[2026-08-07 07:13:11] completed final bootstrap member 9/20
+[2026-08-07 07:13:12] completed final bootstrap member 10/20
+[2026-08-07 07:13:13] completed final bootstrap member 11/20
+[2026-08-07 07:13:14] completed final bootstrap member 12/20
+[2026-08-07 07:13:15] completed final bootstrap member 13/20
+[2026-08-07 07:13:16] completed final bootstrap member 14/20
+[2026-08-07 07:13:18] completed final bootstrap member 15/20
+[2026-08-07 07:13:19] completed final bootstrap member 16/20
+[2026-08-07 07:13:20] completed final bootstrap member 17/20
+[2026-08-07 07:13:21] completed final bootstrap member 18/20
+[2026-08-07 07:13:22] completed final bootstrap member 19/20
+[2026-08-07 07:13:23] completed final bootstrap member 20/20
+[2026-08-07 07:13:35] FAILED: KeyError: 'Original_Index'
+
+Post-processing repair completed; fresh k=12 search outputs were reused.
+FINAL VALIDATION PASSED

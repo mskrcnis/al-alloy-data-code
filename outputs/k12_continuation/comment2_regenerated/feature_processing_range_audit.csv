@@ -1,0 +1,18 @@
+Feature,Feature_Category,Physical_Unit,Proper_Training_Minimum,Proper_Training_Maximum,Heldout_Conditions_Below_Minimum,Heldout_Conditions_Above_Maximum,Heldout_Condition_Violation_Count,Heldout_Condition_Violation_Percentage
+Si,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,12.25,0,0,0,0.0
+Fe,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,1.0,0,1,1,1.1494252873563218
+Cu,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,6.5,0,0,0,0.0
+Mn,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,1.31,0,0,0,0.0
+Mg,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,2.8,0,1,1,1.1494252873563218
+Cr,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,0.26,0,1,1,1.1494252873563218
+Zn,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,8.6,0,0,0,0.0
+V,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,0.158,0,0,0,0.0
+Ti,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,0.2,0,0,0,0.0
+Zr,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,0.4,0,0,0,0.0
+Li,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,2.59,0,0,0,0.0
+Ni,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,2.0,0,0,0,0.0
+Be,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,0.004,0,0,0,0.0
+Sc,Composition,Not explicitly documented in the source workbook; raw composition scale retained.,0.0,0.48,0,0,0,0.0
+Tsol,Processing,Temperature unit not explicitly documented,450.0,560.0,0,0,0,0.0
+Tage,Processing,Temperature unit not explicitly documented,25.0,260.0,0,0,0,0.0
+tage,Processing,Time unit not explicitly documented,0.0,1440.0,0,0,0,0.0

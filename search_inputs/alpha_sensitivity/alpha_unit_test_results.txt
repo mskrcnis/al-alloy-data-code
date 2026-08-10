@@ -1,0 +1,4 @@
+{"Test": "alpha=0.00 endpoint equation", "Passed": true, "Expected_Order": "a;c;b", "Observed_Order": "a;c;b"}
+{"Test": "alpha=1.00 endpoint equation", "Passed": true, "Expected_Order": "b;c;a", "Observed_Order": "b;c;a"}
+{"Test": "alpha=0.50 endpoint equation", "Passed": true, "Expected_Order": "a;b;c", "Observed_Order": "a;b;c"}
+{"Test": "zero-span minmax returns zeros", "Passed": true, "Expected_Order": "0;0;0", "Observed_Order": "0;0;0"}

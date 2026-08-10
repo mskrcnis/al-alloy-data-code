@@ -1,0 +1,9 @@
+Primary criterion: mean macro-average outer-validation R2 across 25 fixed-k selected configurations.
+Best k: 12
+Best mean macro-R2: 0.807021990572
+Best SD: 0.042826759601
+Best SE: 0.008565351920
+Threshold = best mean - SE: 0.798456638651
+Qualifying k values: 8, 9, 10, 11, 12, 14, 15, 16, 17
+Final k: 8 (smallest qualifying k)
+No fitted configuration was cloned across k.

@@ -1,0 +1,1 @@
+Fresh k=12 training-only lock: 4 eligible families x 24 configurations = 96 candidates and 480 inner-fold records. The 270 proper-training rows were the only rows used during selection. Calibration and final-test rows were accessed only after this lock.

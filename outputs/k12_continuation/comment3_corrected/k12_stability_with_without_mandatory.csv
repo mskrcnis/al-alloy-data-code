@@ -1,0 +1,3 @@
+Subset_Size,Selection_Definition,M,p,Status,kbar,mean_s_f_squared,denominator,Finite_Sample_Correction,Nogueira_Stability
+12,Including_Mandatory,25,17,OK,12.0,0.0356862745098039,0.2076124567474048,M/(M-1),0.828111111111111
+12,Excluding_Mandatory,25,14,OK,9.0,0.0433333333333333,0.2295918367346938,M/(M-1),0.8112592592592592

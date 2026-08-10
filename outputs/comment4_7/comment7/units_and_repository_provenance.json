@@ -1,0 +1,9 @@
+{
+  "Repository_Placeholder": "[REPOSITORY_URL_OR_DOI_TO_BE_INSERTED]",
+  "Target_Units": {
+    "El": "%",
+    "UTS": "MPa",
+    "YS": "MPa"
+  },
+  "Units_Source": "ERX-121075_Proof_hi.pdf, Section 3.1"
+}

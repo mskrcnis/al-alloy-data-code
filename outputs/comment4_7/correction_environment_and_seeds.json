@@ -1,0 +1,13 @@
+{
+  "Correction_Factor": 0.29,
+  "No_30_Hour_Search_Rerun": true,
+  "Package_Relative": true,
+  "Runtime_Seconds": 55.53816556930542,
+  "Seed": 42,
+  "Tree_Params": {
+    "max_depth": null,
+    "max_features": 0.7,
+    "min_samples_leaf": 1,
+    "n_estimators": 800
+  }
+}

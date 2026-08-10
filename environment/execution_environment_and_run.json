@@ -1,0 +1,10 @@
+{
+  "Final_Selection": "highest mean outer-validation macro-R2 at k=12",
+  "Finish_Time_Epoch": 1786067147.671066,
+  "Input_Completed_Search": "/home/mskr/Other Research/final_submission_results_joint_search_20260807_063246",
+  "Optional_One_SE_Alternative": 8,
+  "Python": "3.8.20 | packaged by conda-forge | (default, Sep 30 2024, 17:52:49) \n[GCC 13.3.0]",
+  "Runtime_Seconds": 515.6295478343964,
+  "Start_Time_Epoch": 1786066632.0,
+  "Warning_Policy": "default warnings; estimator warnings captured"
+}

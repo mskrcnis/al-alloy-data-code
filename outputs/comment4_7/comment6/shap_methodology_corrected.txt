@@ -1,0 +1,1 @@
+Existing SHAP values were retained after file-integrity checks. The interpretation is evaluation-sample bootstrap stability of SHAP rankings, not complete model-level SHAP stability. SHAP explains model behaviour, not causal metallurgy, and cannot independently justify forcibly retained variables.

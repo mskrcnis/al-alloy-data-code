@@ -1,0 +1,83 @@
+{
+  "Alpha_Grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "Best_Params": {
+    "model__max_depth": null,
+    "model__max_features": 0.7,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 800,
+    "selector__alpha": 0.25,
+    "selector__n_features": 12
+  },
+  "Calibration_Used_In_Selection": false,
+  "Candidate_Count": 96,
+  "Conformal_Alpha": 0.1,
+  "Derived_Search_Seed": 72043,
+  "Description": "reduced physics-retained ExtraTrees",
+  "Ensemble_Size": 20,
+  "Epsilon": 1e-08,
+  "Final_Alpha": 0.25,
+  "Final_Feature_Count": 12,
+  "Final_Features": [
+    "Tsol",
+    "Tage",
+    "tage",
+    "Zn",
+    "Mg",
+    "Cu",
+    "Ti",
+    "Fe",
+    "Zr",
+    "Si",
+    "Sc",
+    "Cr"
+  ],
+  "Final_Selection_Criterion": "highest mean outer-validation macro-R2",
+  "Final_Test_Used_In_Selection": false,
+  "Final_k12_Search_Independent": true,
+  "Inner_CV": "5-fold shuffled KFold",
+  "Inner_CV_Seed": 70042,
+  "Inner_Fold_Record_Count": 480,
+  "Mandatory_Features": [
+    "Tsol",
+    "Tage",
+    "tage"
+  ],
+  "Normalized_Conformal_Method": "abs(y_cal - ensemble_mean_cal)/(ensemble_sd_cal + epsilon)",
+  "Optional_One_SE_Alternative": 8,
+  "Proper_Training_Index_Hash": "af9bf7edb8c7256245a985cd4187ccef8022c2baca999cdb246a21d4f1483b4d",
+  "Ranking_Equation": "HybridScore_j(alpha) = alpha * minmax(PearsonRelevance_j) + (1-alpha) * minmax(MeanEmbeddedImportance_j)",
+  "Search_Algorithm": "RandomizedSearchCV",
+  "Search_Budget_Per_Family": 24,
+  "Selected_Model_Family": "Native_ET_Physics",
+  "Selection_Objective": "higher mean negative normalized RMSE",
+  "Tie_Break": "higher mean primary score, lower SD, lower complexity, lexical family, lexical serialized parameters",
+  "Tree_Search_Space": {
+    "max_depth": [
+      null,
+      6,
+      10,
+      14
+    ],
+    "max_features": [
+      "sqrt",
+      0.7,
+      1.0
+    ],
+    "min_samples_leaf": [
+      1,
+      2,
+      4
+    ],
+    "n_estimators": [
+      300,
+      500,
+      800
+    ]
+  }
+}

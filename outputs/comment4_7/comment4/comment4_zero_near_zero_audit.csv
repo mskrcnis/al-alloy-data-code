@@ -1,0 +1,4 @@
+Target,N_Retained,Zero_Count,Near_Zero_LT_1e-6,Near_Zero_LT_1pct_Median,Caution
+YS,452,0,0,0,MAPE is target-wise only and is unstable for zero or near-zero denominators.
+UTS,452,0,0,0,MAPE is target-wise only and is unstable for zero or near-zero denominators.
+El,452,0,0,0,MAPE is target-wise only and is unstable for zero or near-zero denominators.
