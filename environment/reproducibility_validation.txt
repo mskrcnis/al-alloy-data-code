@@ -9,4 +9,5 @@ PASS: every reconstructed inner-fold hash matches the completed fixed-k search i
 PASS: comment3_k12_continuation_core.py, comment3_final_core.py, and comment3_final_joint_search_core.py are co-located.
 PASS: all released Python sources compile; the three Comment 3 modules import together.
 PASS: the 4x5 variable-distribution figure regenerates successfully from the released data.
+PASS: all 10 requested high-resolution PNGs are present; each is at least 150 KB.
 PASS: no tracked file exceeds the regular GitHub 100 MB file limit.

@@ -53,6 +53,10 @@ script's imports resolve without relying on files outside the repository:
   execution provenance, and the validation environment.
 - `figures/variable_distributions.png` — the high-resolution 4×5 distribution
   figure for the 20 released variables.
+- `figures/high_resolution/` — high-resolution PNG copies of all three
+  actual-vs-predicted plots, all three conformal-interval plots, all three
+  TreeExplainer SHAP summaries, and the variable-distribution figure. Each is
+  at least 150 KB; the model figures are rendered at 600 DPI.
 
 ## Execution order
 

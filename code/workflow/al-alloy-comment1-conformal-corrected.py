@@ -91,7 +91,7 @@ def save_df(df, filename):
     print('Saved:', path)
     return path
 
-def save_fig(filename, dpi=300):
+def save_fig(filename, dpi=600):
     path = OUTPUT_DIR / filename
     plt.tight_layout()
     plt.savefig(path, dpi=dpi, bbox_inches='tight')
